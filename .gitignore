@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python env files
+*.env
+
+# VS Code settings (if used)
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Exported CSV files
+/export/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PyCharm IDE
+.idea/
+
+# MongoDB data (if local data files accidentally placed)
+data/
+
+# Ignore Python compiled files in data or export folder if any
+data/*.pyc
+export/*.pyc
